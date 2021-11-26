@@ -3,6 +3,8 @@ import {Route, Routes, Switch} from "react-router-dom";
 
 import './App.css';
 
+import {auth} from "./firebase/firebase.utils";
+
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import Header from "./components/header/header.component";
